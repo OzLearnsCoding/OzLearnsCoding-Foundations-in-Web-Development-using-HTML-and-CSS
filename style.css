@@ -16,3 +16,11 @@ th {
 tr:nth-child(even) {
     background-color: #f9f9f9;
 }
+
+ul.socials-list {
+    padding: 0;
+}
+
+a.social-link {
+    text-decoration: none;
+}

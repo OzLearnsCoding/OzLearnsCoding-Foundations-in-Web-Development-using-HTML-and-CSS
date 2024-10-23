@@ -1,0 +1,22 @@
+body {
+    background: grey url("dogs.jpg") no-repeat center top;
+    background-size: cover;
+    font-size: medium;
+    color: black;
+}
+
+h1,
+p {
+    font-weight: bold;
+}
+
+.left { text-align: left; } /* other values: right, center, justify */
+/* other values: none, overline, line-through */
+.underline { text-decoration: underline; }
+/* other values: lowercase, capitalize */
+.upper { text-transform: uppercase; }
+.indent { text-indent: 100px; }
+.more-letter-spacing { letter-spacing: 5px; }
+.more-word-spacing { word-spacing: 5px; }
+.more-line-spacing { line-height: 150%; } /* default: 120% */
+.shadow { text-shadow: 2px 1px grey; }

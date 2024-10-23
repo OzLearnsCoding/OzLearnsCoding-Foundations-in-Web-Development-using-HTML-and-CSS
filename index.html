@@ -10,7 +10,7 @@
 
 	<script src="script.js"></script>
 
-	<body>
+	<body contenteditable>
 		<h1>Workspace for day 1</h1>
 		<h2>Exercise 1.1</h2>
 		<h3>Hello World</h3>
@@ -204,7 +204,7 @@
 				style="max-width: 15rem; border-radius: 50%"
 				src="./dogs.jpg"
 				alt="dogs" />
-			<h6>Clarence Chan Yong Jun</h6>
+			<h6>Clarence</h6>
 		</div>
 		<div class="professional">
 			<h4>Professional</h4>
@@ -242,9 +242,9 @@
 		</div>
 		<div class="socials">
 			<h4>Links/Social</h4>
-			<ul style="display: inline">
+			<ul class="socials-list" style="display: inline">
 				<li style="display: inline; list-style: none">
-					<a href="" target="_blank">
+					<a class="social-link" href="" target="_blank">
 						<img
 							style="width: 1rem"
 							src="https://th.bing.com/th?id=OIP.NIDbXqvT7zXPNJyqRMUXHgHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=2&pid=3.1&rm=2"
@@ -252,7 +252,7 @@
 					</a>
 				</li>
 				<li style="display: inline; list-style: none">
-					<a href="" target="_blank">
+					<a class="social-link" href="" target="_blank">
 						<img
 							style="width: 1rem"
 							src="https://th.bing.com/th?id=OIP.Wv5yGJgTWinAe10W2ZY1jAHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=2&pid=3.1&rm=2"
@@ -260,7 +260,7 @@
 					</a>
 				</li>
 				<li style="display: inline; list-style: none">
-					<a href="" target="_blank">
+					<a class="social-link" href="" target="_blank">
 						<img
 							style="width: 1rem"
 							src="https://th.bing.com/th?id=OIP.xWnI7-vwRqh4v4nPHdTXAQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=2&pid=3.1&rm=2"
@@ -268,7 +268,7 @@
 					</a>
 				</li>
 				<li style="display: inline; list-style: none">
-					<a href="" target="_blank">
+					<a class="social-link" href="" target="_blank">
 						<img
 							style="width: 1rem"
 							src="https://th.bing.com/th?id=OIP.ad0WD6VQlIwgcfn7taSHyQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=2&pid=3.1&rm=2"
@@ -276,7 +276,7 @@
 					</a>
 				</li>
 				<li style="display: inline; list-style: none">
-					<a href="" target="_blank">
+					<a class="social-link" href="" target="_blank">
 						<img
 							style="width: 1rem"
 							src="https://www.bing.com/th?id=OIP.7qLz7IrYgyDFN6J2MHF4TwHaFj&w=135&h=101&c=8&rs=1&qlt=90&o=6&dpr=2&pid=3.1&rm=2"
@@ -287,5 +287,30 @@
 		</div>
 
 		<h2>Notes 1.4</h2>
+		<form method="POST">
+			<input type="text" name="textbox_entry" id="" />
+			<input type="submit" />
+		</form>
+		<br />
+		<form action="">
+			<table>
+				<tr>
+					<td>Name:</td>
+					<td><input type="text" name="name" /></td>
+				</tr>
+				<tr>
+					<td>Username:</td>
+					<td><input type="text" name="username" /></td>
+				</tr>
+				<tr>
+					<td>E-mail:</td>
+					<td><input type="text" name="email" /></td>
+				</tr>
+				<tr>
+					<td colspan="2"><input type="submit" /></td>
+					<!-- <td></td> -->
+				</tr>
+			</table>
+		</form>
 	</body>
 </html>
